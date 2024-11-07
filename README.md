@@ -7,7 +7,12 @@ Make sure you have Llama 3.2-1b or any other Llama language model downloaded.
 
 
 
-Also the code isn't entirely mine but i did train the language model
+Also the code isn't entirely mine
 
 output_with_tone is the file you will be using to train llama 3.2-1b i used 1b for simplicity and i dont have high specs required.
 
+
+#INSTRUCTIONS
+1.download nessesary libaries
+2.download Llama 3.2-1b or other
+3.download a translator to translate (link: https://huggingface.co/Helsinki-NLP/opus-mt-en-jap)
