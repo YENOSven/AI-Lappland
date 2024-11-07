@@ -6,7 +6,7 @@ from EdgingTTS import Speak
 
 if __name__ == "__main__":
     mic = WhisperMic()
-    llama = LlamaChatbot(r"C:\Users\alanl\LapplandBot\results")
+    llama = LlamaChatbot(r"PATH_TO_lLAMA_MODEL")
     #edging = Speak()
     translator = Translator()
     voicevox = VoiceVox()
