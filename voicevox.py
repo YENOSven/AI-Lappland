@@ -6,7 +6,7 @@ import wave
 import soundfile as sf
 
 class VoiceVox:
-    def __init__(self, host="127.0.0.1", port="50021", speaker=55):
+    def __init__(self, host="127.0.0.1", port="50021", speaker=55):#ajust to your liking
         self.host = host
         self.port = port
         self.speaker = speaker
