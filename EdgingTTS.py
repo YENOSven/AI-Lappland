@@ -3,7 +3,7 @@ import pygame
 
 
 class Speak:
-    def __init__(self, voice = "ja-JP-NanamiNeural", volume = "+100%", rate = "-10%", pitch = "-100Hz"):
+    def __init__(self, voice = "ja-JP-NanamiNeural", volume = "+100%", rate = "-10%", pitch = "-100Hz"):#customize to your liking if you decide to use EDGE TTS
         self.voice = voice
         self.volume = volume
         self.rate = rate
