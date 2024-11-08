@@ -1,7 +1,7 @@
 from transformers import MarianMTModel, MarianTokenizer
 
 class Translator:
-    def __init__(self, model_dir=r"C:\Users\alanl\LapplandBot\Helsinki-NLPopus-mt-en-jap"):
+    def __init__(self, model_dir=r"PATH_TO_Helsinki-NLP/opus-mt-en-jap"):
         """Initialize the model and tokenizer from the local path."""
         self.model = MarianMTModel.from_pretrained(model_dir)
         self.tokenizer = MarianTokenizer.from_pretrained(model_dir)
